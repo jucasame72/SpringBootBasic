@@ -20,6 +20,12 @@ public class Example {
 		return "Bye World!";
 	}
 	
+	@RequestMapping("/IAmHere")
+	String IAmHere()
+	{
+		return "I am here";
+	}
+	
 	public static void main(String[] args) {
 		SpringApplication.run(Example.class, args);
 
