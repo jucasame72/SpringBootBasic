@@ -20,10 +20,10 @@ public class Example {
 		return "Bye World!";
 	}
 	
-	@RequestMapping("/LetsGo")
-	String LetsGo()
+	@RequestMapping("/IAmHere")
+	String IAmHere()
 	{
-		return "Lets Go";
+		return "I am here";
 	}
 	
 	public static void main(String[] args) {
