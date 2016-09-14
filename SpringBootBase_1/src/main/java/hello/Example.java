@@ -15,6 +15,11 @@ public class Example {
 		return "Hello World";
 	}
 	
+	@RequestMapping("/bye")
+	String bye(){
+		return "Bye World!";
+	}
+	
 	public static void main(String[] args) {
 		SpringApplication.run(Example.class, args);
 
