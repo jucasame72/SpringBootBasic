@@ -26,6 +26,12 @@ public class Example {
 		return "I am here";
 	}
 	
+	@RequestMapping("/LetsGo")
+	String LetsGo()
+	{
+		return "Lets Go";
+	}
+	
 	public static void main(String[] args) {
 		SpringApplication.run(Example.class, args);
 
