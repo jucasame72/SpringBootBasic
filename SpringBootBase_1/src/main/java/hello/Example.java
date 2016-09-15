@@ -27,6 +27,12 @@ public class Example {
 		return "I am here";
 	}
 	
+	@RequestMapping("/login")
+	String login()
+	{
+		return "I am logged in!";
+	}
+	
 	public static void main(String[] args) {
 		SpringApplication.run(Example.class, args);
 
