@@ -16,7 +16,8 @@ public class Example {
 	}
 	
 	@RequestMapping("/bye")
-	String bye(){
+	String bye()
+	{
 		return "Bye Cruel World! :(";
 	}
 	
