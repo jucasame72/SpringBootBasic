@@ -17,7 +17,7 @@ public class Example {
 	
 	@RequestMapping("/bye")
 	String bye(){
-		return "Bye World!";
+		return "Bye Happy World!";
 	}
 	
 	@RequestMapping("/IAmHere")
